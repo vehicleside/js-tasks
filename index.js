@@ -5,3 +5,5 @@ function log() {
 function sqr(number) {
     return number * number
 }
+
+sqr(4)
