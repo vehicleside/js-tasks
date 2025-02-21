@@ -1,9 +1,8 @@
 // #1
 
 let s1 = 'text_one'
-let s2 = new String('text_two')
-var s3 = 'text' + 3
-const s4 = 'text_four'
+var s2 = 'text' + 3
+const s3 = 'text_four'
 
 let n1 = 1
 let n2 = Number(2)
@@ -15,12 +14,20 @@ let n = null
 
 let undef = undefined
 
-let ch1 = 'char1'
-let ch2 = Symbol('char2')
+let ch1 = Symbol('char2')
 
 let bigInt1 = 1n
 let bigInt2 = BigInt(1)
 
+arr = [s1, s2, s3,
+       n1, n2,
+       b1, b2,
+       n, undef,
+       ch1,
+       bigInt1, bigInt2]
+
+arr.forEach(el => console.log(typeof el))
+console.log()
 
 // #2
 
