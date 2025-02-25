@@ -1,9 +1,9 @@
 function Hamster() {
     this.food = []
-    
-    this.found = function(something) {
-        this.food.push(something);
-    }
+}
+
+Hamster.prototype.found = function(something) {
+    this.food.push(something);
 }
 
 speedy = new Hamster();
