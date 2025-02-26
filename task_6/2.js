@@ -13,4 +13,4 @@ setTimeout(() => console.log("5"));
 
 console.log("6");
 
-// 136425
+// 136425 | 136452 for browser
